@@ -157,14 +157,14 @@ if (empty($q)) {
 			WIDGET = {
 			  CONFIG: {
 				"modules": "01234",
-				"background": 1,
-				"tmpColor": "FFFFFF",
-				"tmpSize": 16,
-				"cityColor": "FFFFFF",
-				"citySize": 16,
-				"aqiSize": 16,
-				"weatherIconSize": 24,
-				"alertIconSize": 18,
+				"background": 5,
+				"tmpColor": "4A4A4A",
+				"tmpSize": "10",
+				"cityColor": "4A4A4A",
+				"citySize": "10",
+				"aqiSize": "14",
+				"weatherIconSize": "16",
+				"alertIconSize": "14",
 				"padding": "10px 10px 10px 10px",
 				"shadow": "1",
 				"language": "auto",
@@ -172,7 +172,7 @@ if (empty($q)) {
 				"fixed": "false",
 				"vertical": "middle",
 				"horizontal": "center",
-				"key": "395f9da67b994d61b21239563cfb967e"
+				"key": "c5e3bf2cd1504c09ac884f9f4c759d8c"
 			  }
 			}
 			</script>
