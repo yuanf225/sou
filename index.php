@@ -32,7 +32,7 @@ if (empty($q)) {
   <meta name="browsermode" content="application"><!--UC应用模式-->
   <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
   <meta name="x5-page-mode" content="app"><!--QQ应用模式-->
-  <title>简单搜索</title>
+  <title>ITpel-Home</title>
   <link href="style.css?t=<?php echo date("ymdhi"); ?>" rel="stylesheet">
   <link href="wea.css?t=<?php echo date("ymdhi"); ?>" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
@@ -151,33 +151,23 @@ if (empty($q)) {
         </div>
         <!--天气插件，基于www.tianqiapi.com 天气接口制作-->
     </div>    
-    <!--div class="mywth" style="width: 320px;">
-       <div id="he-plugin-simple"></div>
-        <script>
-        WIDGET = {
-          CONFIG: {
-            "modules": "01234",
-            "background": 5,
-            "tmpColor": "4A4A4A",
-            "tmpSize": "12",
-            "cityColor": "4A4A4A",
-            "citySize": "12",
-            "aqiSize": "12",
-            "weatherIconSize": "16",
-            "alertIconSize": "14",
-            "padding": "0px 5px 0px 5px",
-            "shadow": "1",
-            "language": "auto",
-            "fixed": "false",
-            "vertical": "middle",
-            "horizontal": "left",
-            "key": "自己的key"
-          }
-          /*天气key自己去官方申请吧大佬们！https://dev.heweather.com/widget/simple*/
-        }
-        </script>
-        <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-    </div-->    
+    <div class="mywth" style="width: 320px;">
+       <div id="he-plugin-standard"></div>
+			<script>
+			WIDGET = {
+			  CONFIG: {
+				"layout": 2,
+				"width": "230",
+				"height": "270",
+				"background": 1,
+				"dataColor": "FFFFFF",
+				"borderRadius": 5,
+				"key": "0d51510a0aa84b0fbba85f57dd173b2c"
+			  }
+			}
+			</script>
+		<script src="https://widget.heweather.net/standard/static/js/he-standard-common.js?v=1.1"></script>
+    </div>    
     <div id="content">
         <div class="con">
             <div class="shlogo" style="background: url(icon/logo3.svg) no-repeat center/cover;"></div>
@@ -203,7 +193,7 @@ if (empty($q)) {
                 </ul-->
             </div>
         </div>
-        <div class="foot">© 2016-<?php echo date("Y") ?> by <a href="https://blog.5iux.cn/">5iux</a> . All rights reserved.</div>
+        <div class="foot">© 2020-<?php echo date("Y") ?> by <a href="https://www.itpel.com/">ITpel</a> . All rights reserved.</a> 渝ICP备20005554</div>
     </div>
 <!--
 作者:D.Young
