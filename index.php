@@ -152,21 +152,31 @@ if (empty($q)) {
         <!--天气插件，基于www.tianqiapi.com 天气接口制作-->
     </div>    
     <div class="mywth" style="width: 320px;">
-       <div id="he-plugin-standard"></div>
+       <div id="he-plugin-simple"></div>
 			<script>
 			WIDGET = {
 			  CONFIG: {
-				"layout": 2,
-				"width": "230",
-				"height": "270",
+				"modules": "01234",
 				"background": 1,
-				"dataColor": "FFFFFF",
+				"tmpColor": "FFFFFF",
+				"tmpSize": 16,
+				"cityColor": "FFFFFF",
+				"citySize": 16,
+				"aqiSize": 16,
+				"weatherIconSize": 24,
+				"alertIconSize": 18,
+				"padding": "10px 10px 10px 10px",
+				"shadow": "1",
+				"language": "auto",
 				"borderRadius": 5,
-				"key": "0d51510a0aa84b0fbba85f57dd173b2c"
+				"fixed": "false",
+				"vertical": "middle",
+				"horizontal": "center",
+				"key": "395f9da67b994d61b21239563cfb967e"
 			  }
 			}
 			</script>
-		<script src="https://widget.heweather.net/standard/static/js/he-standard-common.js?v=1.1"></script>
+		<script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
     </div>    
     <div id="content">
         <div class="con">
